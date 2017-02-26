@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Animals.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Animals"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="speakButton" Content="发言" HorizontalAlignment="Left" Margin="71,100,0,0" VerticalAlignment="Top" Click="speakButton_Click"/>
+        <Button x:Name="yesButton" Content="确定" HorizontalAlignment="Left" Margin="71,394,0,0" VerticalAlignment="Top" Click="yesButton_Click"/>
+        <TextBox x:Name="textInput" HorizontalAlignment="Left" Height="47" Margin="44,320,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="109"/>
+        <TextBlock x:Name="words" Margin="206,28,0,0" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="119" Height="548" VerticalAlignment="Top"/>
+        <TextBlock x:Name="description1" HorizontalAlignment="Left" Height="47" Margin="48,39,0,0" TextWrapping="Wrap" Text="请点击以下按钮进行随机发言：" VerticalAlignment="Top" Width="114"/>
+        <TextBlock x:Name="description2" HorizontalAlignment="Left" Height="58" Margin="45,247,0,0" TextWrapping="Wrap" Text="请输入发言者（pig/dog/cat）进行发言：" VerticalAlignment="Top" Width="114"/>
+    </Grid>
+</Page>

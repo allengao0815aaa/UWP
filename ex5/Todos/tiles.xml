@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tile>
+  <visual branding="name">
+
+    <binding template="TileSmall">
+      <image src="Assets/default_image.jpg" placement="background"/>
+      <text hint-style="base">Header content</text>
+      <text hint-wrap="true" hint-style="captionSubtle">Subheader content</text>
+    </binding>
+
+    <binding template="TileMedium">
+      <image src="Assets/default_image.jpg" placement="background"/>
+      <text hint-style="base">Header content</text>
+      <text hint-wrap="true" hint-style="captionSubtle">Subheader content</text>
+    </binding>
+
+    <binding template="TileWide">
+      <image src="Assets/default_image.jpg" placement="background"/>
+      <text hint-style="base">Header content</text>
+      <text hint-wrap="true" hint-style="captionSubtle">Subheader content</text>
+    </binding>
+
+    <binding template="TileLarge">
+      <image src="Assets/default_image.jpg" placement="background"/>
+      <text hint-style="subtitle">Header content</text>
+      <text hint-wrap="true" hint-style="captionSubtle">Subheader content</text>
+    </binding>
+
+  </visual>
+</tile>
